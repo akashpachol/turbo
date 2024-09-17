@@ -138,7 +138,8 @@ export default function Home() {
       {/* course */}
       <section className="lg:px-[80px] px-[34px] sm:px-[47px]  md:mt-56 mt-[420px]  mb-10">
         <div className="flex items-center">
-          <div className="w-14 border-t-2 border-customRed-900"></div>
+        <div className="w-14 rounded-lg border-t-2 border-customRed-900"></div>
+
 
           <p className="lg:text-lg text-sm  text-customRed-900 ms-3">
             OUR COURSE
@@ -428,21 +429,21 @@ export default function Home() {
       <section className="bg-[url('/image/Rectangle5795.png')] bg-cover items-center h-64 mt-10 grid grid-cols-2 md:grid-cols-4">
   <div className="text-center">
     <p className="lg:text-5xl md:text-3xl text-2xl text-customWhite-900 font-bold">650+</p>
-    <p className="text-sm mt-4 text-[#E6EBEB]">Project Completed</p>
+    <p className="text-sm mt-4 bg-customWhite-700">Project Completed</p>
     <div className="w-full border-b-4 ms-10 mt-4 border-customBlue-300 md:hidden"></div>
   </div>
   <div className="text-center md:border-l-4 border-customBlue-300">
     <p className="lg:text-5xl md:text-3xl text-2xl text-customWhite-900 font-bold">200+</p>
-    <p className="text-sm mt-4 text-[#E6EBEB]">Team Engineers</p>
+    <p className="text-sm mt-4 bg-customWhite-700">Team Engineers</p>
     <div className="w-[90%] border-b-4 me-20 mt-4 border-customBlue-300 md:hidden"></div>
   </div>
   <div className="text-center md:border-l-4 border-customBlue-300">
     <p className="lg:text-5xl md:text-3xl text-2xl text-customWhite-900 font-bold">300+</p>
-    <p className="text-sm mt-4 text-[#E6EBEB]">Clients Worldwide</p>
+    <p className="text-sm mt-4 bg-customWhite-700">Clients Worldwide</p>
   </div>
   <div className="text-center md:border-l-4 border-customBlue-300">
     <p className="lg:text-5xl md:text-3xl text-2xl text-customWhite-900 font-bold">10+</p>
-    <p className="text-sm mt-4 text-[#E6EBEB]">Years Of Experiences</p>
+    <p className="text-sm mt-4 bg-customWhite-700">Years Of Experiences</p>
   </div>
 </section>
 
@@ -592,13 +593,13 @@ export default function Home() {
 
         </div>
         <div className="">
-          <div className="lg:w-48 md:w-32 w-16 border-t-2 border-[#14516A] flex justify-center items-center text-[10px] leading-[8px] md:leading-[12px] md:text-[12px] mt-2.5 lg:text-[18px]  text-customRed-900"></div>
+          <div className="lg:w-48 md:w-32 w-16 border-t-2 border-customBlue-700 flex justify-center items-center text-[10px] leading-[8px] md:leading-[12px] md:text-[12px] mt-2.5 lg:text-[18px]  text-customRed-900"></div>
 
           <hr />
         </div>
       </section>
       {/* Our Mission & Vision */}
-      <section className="bg-[#14516A] gap-8 max-h-[835px] md:flex lg:px-[80px] px-[34px] sm:px-[47px] lg:py-[40px] py-[17px] sm:py-[24px] mt-10">
+      <section className="bg-customBlue-700 gap-8 max-h-[835px] md:flex lg:px-[80px] px-[34px] sm:px-[47px] lg:py-[40px] py-[17px] sm:py-[24px] mt-10">
         <div className="md:w-1/2 w-full">
           <div className="flex items-center">
            
@@ -753,15 +754,15 @@ export default function Home() {
           </button>
         </div>
         <div className="md:hidden">
-          <div className="sm:w-32 w-16 border-t-2 border-[#14516A] flex justify-center items-center text-[10px] leading-[8px] md:leading-[12px] md:text-[12px] mt-2.5 lg:text-[18px]  text-customRed-900"></div>
+          <div className="sm:w-32 w-16 border-t-2 border-customBlue-700 flex justify-center items-center text-[10px] leading-[8px] md:leading-[12px] md:text-[12px] mt-2.5 lg:text-[18px]  text-customRed-900"></div>
 
           <hr />
         </div>
       </section>
 
 {/* form */}
-      <section className="lg:px-[80px] px-[34px] sm:px-[47px] mt-10 bg-[#FAFAFA] pt-10">
-        <div className="max-w-2xl mx-auto  p-8 bg-[#FAFAFA] rounded-md form-container">
+      <section className="lg:px-[80px] px-[34px] sm:px-[47px] mt-10 bg-customWhite-500 pt-10">
+        <div className="max-w-2xl mx-auto  p-8 bg-customWhite-500 rounded-md form-container">
           <div className="text-center ">
           <h2 className="flex-1 lg:text-4xl mt-2 text-xl font-semibold text-customBlue-900">
               Get Free Consultation
@@ -787,7 +788,7 @@ export default function Home() {
                   name="name"
                   placeholder="John Doe"
                   required
-                  className="w-full px-3  border rounded-md bg-[#F6F0F0] p-4 focus:outline-none"
+                  className="w-full px-3  border rounded-md bg-customRed-800 p-4 focus:outline-none"
                 />
               </div>
               <div className="">
@@ -803,7 +804,7 @@ export default function Home() {
                   name="name"
                   placeholder="John Doe"
                   required
-                  className="w-full px-3  border rounded-md bg-[#F6F0F0] p-4 focus:outline-none"
+                  className="w-full px-3  border rounded-md bg-customRed-800 p-4 focus:outline-none"
                 />
               </div>
               <div className="">
@@ -819,7 +820,7 @@ export default function Home() {
                   name="name"
                   placeholder="Phone Number"
                   required
-                  className="w-full px-3  border rounded-md bg-[#F6F0F0] p-4 focus:outline-none"
+                  className="w-full px-3  border rounded-md bg-customRed-800 p-4 focus:outline-none"
                 />
               </div>
               <div className="">
@@ -835,7 +836,7 @@ export default function Home() {
                   name="name"
                   placeholder="Enter your Email"
                   required
-                  className="w-full px-3  border rounded-md bg-[#F6F0F0] p-4 focus:outline-none"
+                  className="w-full px-3  border rounded-md bg-customRed-800 p-4 focus:outline-none"
                 />
               </div>
             </div>
@@ -853,7 +854,7 @@ export default function Home() {
                 rows={4}
                 placeholder="Type somthing?"
                 required
-                className="w-full px-3 text-sm border rounded-md bg-[#F6F0F0] p-4 focus:outline-none"
+                className="w-full px-3 text-sm border rounded-md bg-customRed-800 p-4 focus:outline-none"
               ></textarea>
             </div>
             <div className=" grid grid-cols-2 md:hidden ">
